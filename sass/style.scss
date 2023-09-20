@@ -1,0 +1,15 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+// /communElements/
+@import './communElements/variables.scss';
+@import './communElements/communElements.scss';
+
+// /pages/
+@import './pages/home.scss';
+@import './pages/falcon9.scss';
+@import './pages/humanSpace.scss';
+
+* {
+    color: #fff;
+}
