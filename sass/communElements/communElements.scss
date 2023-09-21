@@ -1,0 +1,86 @@
+@use '../communElements/variables.scss';
+
+.header {
+    font-size: 12px;
+    font-weight: bold;
+    
+    #navLink {
+        &:hover {
+            transition: 0.4s;
+            color: variables.$linkHover;
+        }
+    }
+}
+
+.container00 {
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.arrowDown {
+    display: inline-block;
+    width: 90px;
+    margin-top: 30%;
+}
+
+.logoPc {
+    width: 200px;
+    margin-left: -10px;
+    margin-right: 24px;
+}
+
+#button {
+    padding: variables.$paddingButton;
+    border-radius: 0px;
+    border: 2px solid #fff;
+    font-weight: bold;
+    width: 164px;
+}
+
+.footer {
+    background-color: #000;
+    height: 15vh;
+    font-size: 12px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    a {
+        text-decoration: none;
+        color: #fff;
+
+        &:hover {
+            color: variables.$linkHover;
+        }
+    }
+
+    .copy {
+        color: variables.$copyColor;
+    }
+}
+
+// Media Query
+@media (max-width: 405px) {
+    .logoPc {
+        width: 180px;
+        margin-top: 15px;
+    }
+
+    .footer {
+        font-size: 10px;
+    }
+
+    .arrowDown {
+        margin-top: 100%;
+    }
+}
+
+@media (max-width: 350px) {
+    .logoPc {
+        width: 150px;
+        margin-top: 15px;
+    }
+}
