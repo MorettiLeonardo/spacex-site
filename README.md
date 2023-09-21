@@ -1,1 +1,1 @@
-Site da SpaceX, feti com HTML, SASS e Bootstrap
+Site da SpaceX, feito com HTML, SASS e Bootstrap
