@@ -37,6 +37,9 @@
     border: 2px solid #fff;
     font-weight: bold;
     width: 164px;
+    &:hover {
+        transition: 0.4s;
+    }
 }
 
 .footer {
