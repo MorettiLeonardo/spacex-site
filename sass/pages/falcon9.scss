@@ -101,22 +101,6 @@
     background-color: #000;
 }
 
-.downloadDesc {
-    background-color: #000;
-    height: 50vh;
-    padding-top: 200px;
-    color: #fff;
-
-    a {
-        text-decoration: none;
-        color: variables.$linkHover;
-
-        &:hover {
-            color: #a4a4a4;
-        }
-    }
-}
-
 .table {
     td {
         background-color: transparent;

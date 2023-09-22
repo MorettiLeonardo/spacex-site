@@ -42,6 +42,7 @@
   border: 1px solid #fff;
   font-weight: bold;
   width: 164px;
+  text-align: center;
 }
 #button:hover {
   transition: 0.4s;
@@ -65,6 +66,21 @@
 }
 .footer .copy {
   color: #555252;
+}
+
+.downloadDesc {
+  background-color: #000;
+  height: 50vh;
+  padding-top: 200px;
+  color: #fff;
+}
+
+.email {
+  text-decoration: none;
+  color: #b9b9b9;
+}
+.email:hover {
+  color: #a4a4a4;
 }
 
 @media (max-width: 405px) {
@@ -226,20 +242,6 @@
   background-color: #000;
 }
 
-.downloadDesc {
-  background-color: #000;
-  height: 50vh;
-  padding-top: 200px;
-  color: #fff;
-}
-.downloadDesc a {
-  text-decoration: none;
-  color: #b9b9b9;
-}
-.downloadDesc a:hover {
-  color: #a4a4a4;
-}
-
 .table td {
   background-color: transparent;
   color: white;
@@ -283,6 +285,146 @@
   }
   .falcon9Desc {
     line-height: 34px;
+  }
+}
+* {
+  color: #fff;
+}
+
+.container00.container08 {
+  background-image: url("../../images/humanFlight/01.jpg");
+}
+.container00.container09 {
+  background-image: url("../../images/humanFlight/02.jpg");
+}
+.container00.container10 {
+  background-image: url("../../images/humanFlight/03.jpg");
+}
+.container00.container11 {
+  background-image: url("../../images/humanFlight/04.jpg");
+}
+.container00.container12 {
+  background-image: url("../../images/humanFlight/05.jpg");
+}
+
+.container01Content {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container01Content .titleHuman {
+  font-size: 100px;
+  color: rgb(241, 241, 241);
+}
+.container01Content .subtitleHuman {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.earthDesc {
+  background-color: #000;
+  height: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+.earthDesc .textEarthDesc {
+  color: #b9b9b9;
+  font-weight: 400;
+  width: 800px;
+}
+
+.containerRightContent {
+  margin-left: 55%;
+  padding-top: 15%;
+}
+.containerRightContent .titleSection {
+  font-size: 60px;
+  font-weight: bold;
+}
+.containerRightContent .subtitle {
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.containerLeftContent {
+  padding-top: 15%;
+}
+.containerLeftContent .titleSection {
+  font-size: 60px;
+  font-weight: bold;
+}
+.containerLeftContent .subtitle {
+  font-size: 40px;
+  font-weight: 300;
+  max-width: 500px;
+}
+
+@media (max-width: 700px) {
+  .container01Content .titleHuman {
+    font-size: 60px;
+  }
+  .container01Content .subtitleHuman {
+    font-size: 20px;
+  }
+  .containerRightContent .titleSection {
+    font-size: 40px;
+  }
+  .containerRightContent .subtitle {
+    font-size: 25px;
+  }
+  .containerLeftContent .titleSection {
+    font-size: 40px;
+  }
+  .containerLeftContent .subtitle {
+    font-size: 25px;
+    width: 40%;
+  }
+}
+@media (max-width: 500px) {
+  .container01Content .titleHuman {
+    font-size: 40px;
+  }
+  .container01Content .subtitleHuman {
+    font-size: 18px;
+  }
+  .containerRightContent {
+    margin-left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .containerRightContent .titleSection {
+    font-size: 30px;
+  }
+  .containerRightContent .subtitle {
+    font-size: 20px;
+    text-align: center;
+  }
+  .containerLeftContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .containerLeftContent .titleSection {
+    font-size: 30px;
+  }
+  .containerLeftContent .subtitle {
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  .earthDesc .textEarthDesc {
+    font-size: 16px;
   }
 }
 

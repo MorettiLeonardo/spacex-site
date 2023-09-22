@@ -1,0 +1,164 @@
+@use '../communElements/variables.scss';
+
+.container00 {
+    &.container08 {
+        background-image: url('../../images/humanFlight/01.jpg');
+    }
+    &.container09 {
+        background-image: url('../../images/humanFlight/02.jpg');
+    }
+    &.container10 {
+        background-image: url('../../images/humanFlight/03.jpg');
+    }
+    &.container11 {
+        background-image: url('../../images/humanFlight/04.jpg');
+    }
+    &.container12 {
+        background-image: url('../../images/humanFlight/05.jpg');
+    }
+}
+
+.container01Content {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .titleHuman {
+        font-size: 100px;
+        color: rgb(241, 241, 241);
+    }
+
+    .subtitleHuman {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 30px;
+        font-weight: 300;
+    }
+}
+
+.earthDesc {
+    background-color: #000;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+
+    .textEarthDesc {
+        color: variables.$linkHover;
+        font-weight: 400;
+        width: 800px;
+    }
+}
+
+.containerRightContent {
+    margin-left: 55%;
+    padding-top: 15%;
+
+    .titleSection {
+        font-size: 60px;
+        font-weight: bold;
+    }
+    .subtitle {
+        font-size: 40px;
+        font-weight: 300;
+    }
+}
+
+.containerLeftContent {
+    padding-top: 15%;
+
+    .titleSection {
+        font-size: 60px;
+        font-weight: bold;
+    }
+    .subtitle {
+        font-size: 40px;
+        font-weight: 300;
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 700px) {
+    .container01Content {
+        .titleHuman {
+            font-size: 60px;
+        }
+    
+        .subtitleHuman {
+            font-size: 20px;
+        }
+    }
+
+    .containerRightContent {
+        .titleSection {
+            font-size: 40px;
+        }
+        .subtitle {
+            font-size: 25px;
+        }
+    }
+    
+    .containerLeftContent {
+        .titleSection {
+            font-size: 40px;
+        }
+        .subtitle {
+            font-size: 25px;
+            width: 40%;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .container01Content {
+        .titleHuman {
+            font-size: 40px;
+        }
+    
+        .subtitleHuman {
+            font-size: 18px;
+        }
+    }
+
+    .containerRightContent {
+        margin-left: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .titleSection {
+            font-size: 30px;
+        }
+        .subtitle {
+            font-size: 20px;
+            text-align: center;
+        }
+    }
+    
+    .containerLeftContent {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        .titleSection {
+            font-size: 30px;
+        }
+        .subtitle {
+            font-size: 20px;
+            width: 100%;
+            text-align: center;
+        }
+    }
+
+    .earthDesc {
+        .textEarthDesc {
+            font-size: 16px;
+        }
+    }
+}

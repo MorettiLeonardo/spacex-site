@@ -40,9 +40,10 @@
     border: 1px solid #fff;
     font-weight: bold;
     width: 164px;
+    text-align: center;
+
     &:hover {
         transition: 0.4s;
-        
     }
 }
 
@@ -66,6 +67,22 @@
 
     .copy {
         color: variables.$copyColor;
+    }
+}
+
+.downloadDesc {
+    background-color: #000;
+    height: 50vh;
+    padding-top: 200px;
+    color: #fff;
+}
+
+.email {
+    text-decoration: none;
+    color: variables.$linkHover;
+
+    &:hover {
+        color: #a4a4a4;
     }
 }
 
