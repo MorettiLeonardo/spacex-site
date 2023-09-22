@@ -4,10 +4,13 @@
     font-size: 12px;
     font-weight: bold;
     
+    
+    
     #navLink {
         &:hover {
-            transition: 0.4s;
+            transition: 1s;
             color: variables.$linkHover;
+            border-bottom: 1px solid variables.$linkHover;
         }
     }
 }
@@ -34,11 +37,12 @@
 #button {
     padding: variables.$paddingButton;
     border-radius: 0px;
-    border: 2px solid #fff;
+    border: 1px solid #fff;
     font-weight: bold;
     width: 164px;
     &:hover {
         transition: 0.4s;
+        
     }
 }
 
@@ -79,11 +83,22 @@
     .arrowDown {
         margin-top: 100%;
     }
+    #button {
+        margin-top: 8px;
+    }
+    .footer {
+        padding-top: 20%;
+    }
 }
 
 @media (max-width: 350px) {
     .logoPc {
         width: 150px;
         margin-top: 15px;
+    }
+    #button {
+        margin-right: 0px;
+        margin-top: 8px;
+        width: 100%;
     }
 }
