@@ -1,5 +1,14 @@
 {
-  "dependencies": {
-    "sass": "^1.67.0"
-  }
+  "name": "cls",
+  "description": "Site da SpaceX, feito com HTML, SASS e Bootstrap",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "sass": "^1.68.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
 }
